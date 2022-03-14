@@ -9,10 +9,10 @@ var last_position_of_x, last_position_of_y;
     canvas.addEventListener("mousedown", my_mousedown);
     function my_mousedown(e)
     {
-        //Addictonal Activity start
+        //Inicio de actividad adicional
         color = document.getElementById("color").value;
         width_of_line = document.getElementById("width_of_line").value;
-        //Addictonal Activity ends
+        //Finaliza la actividad adicional
 
         mouseEvent = "mousedown";
     }
